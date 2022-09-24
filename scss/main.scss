@@ -1,0 +1,18 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./base/animations";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/titulos";
+
+@import "./components/navbar";
+@import "./components/banner";
+@import "./components/cards";
+
+@import "./pages/index.scss";
+@import "./pages/categorias.scss";
+@import "./pages/contacto.scss";
+@import "./pages/sobre-nosotros.scss";
+@import "./pages/hombres.scss";

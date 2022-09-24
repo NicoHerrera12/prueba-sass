@@ -1,0 +1,16 @@
+.header{
+    background-color: $color-primario;
+    #titulo{
+        color: #000;
+    }
+    &__img{
+        width: 50px;
+    }
+    &__subul{
+        display: none;
+    }
+    &__title{
+        padding: 5px 15px
+        
+    }
+}

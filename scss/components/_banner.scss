@@ -1,0 +1,15 @@
+.banner{
+    background-image:linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(../../assets/images/banner-pumas-prueba.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-position: 50% 0%;
+    background-attachment: fixed;
+
+    &__cont{
+        font-size: 2rem;
+        color: #F3EDDF;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>RugbyStore</title>
+</head>
+<body>
+    <header class="header d-flex flex-column justify-content-between flex-md-row">
+        
+        <a href="./index.html" class="header__title     d-flex align-items-center justify-content-center">
+            <img class="header__img" src="./assets/images/pelota-de-rugby.png" alt="">
+            <h1 id="titulo">RugbyStore</h1>
+        </a>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./pages/hombres.html">Hombres</a></li>
+                      <li><a class="dropdown-item" href="#">Mujeres</a></li>
+                      <li><a class="dropdown-item" href="#">Niños</a></li>
+                      <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                      <li><a class="dropdown-item" href="./pages/categorias.html">Todas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+			<div class="banner__cont">
+				<p>Encontra toda la indumentaria de tu equipo favorito</p>
+			</div>
+		</section>
+
+        <section class="promo container-fluid">
+            
+                <h2 class="section__title">Promociones</h2>
+            
+            <article class="box row flex-nowrap justify-content-md-around">
+                <div class="box__card d-flex flex-column align-items-center col-7 col-sm-4 col-md-3">
+                    <a href="" class="box__a d-flex flex-column align-items-center">
+                        <img class="box__img img-fluid" src="./assets/images/hombres/bco-hipo.jpg">
+                    
+                        <span>Camiseta Banco Hipotecario</span>
+                        <span>$2400</span>
+                        <span>6 cuotas de $400</span>
+                    </a>
+                    <a href="" class="box__comprar">Comprar</a>
+                </div>
+                <div class="box__card d-flex flex-column align-items-center col-7 col-sm-4 col-md-3">
+                    <a href="" class="box__a d-flex flex-column align-items-center">
+                        <img class="box__img img-fluid" src="./assets/images/mujeres/fem-rosa-blanca.jpg">
+                    
+                        <span>Camiseta Rugby Femenino Blanca</span>
+                        <span>$1800</span>
+                        <span>6 cuotas de $300</span>
+                    </a>
+                    <a href="" class="box__comprar">Comprar</a>
+                </div>
+                <div class="box__card d-flex flex-column align-items-center col-7 col-sm-4 col-md-3">
+                    <a href="" class="box__a d-flex flex-column align-items-center">
+                        <img class="box__img img-fluid" src="./assets/images/niños/niño-obras-seven.jpg">
+                    
+                        <span>Camiseta Obras Seven</span>
+                        <span>$2200</span>
+                        <span>6 cuotas de $366,66</span>
+                    </a>
+                    <a href="" class="box__comprar">Comprar</a>
+                </div>
+                <div class="box__ver d-flex align-items-center col-1">
+                    <button class="box__button">Ver más</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="forma-pago container-fluid">
+            
+                <h2 class="section__title">Formas de Pago</h2>
+            
+            
+            <article class="forma-pago__box row justify-content-around text-center">
+                <div class="forma-pago__icon d-flex flex-column">
+                    <i class="bi bi-credit-card forma-pago__i"></i>
+                    <p>Tarjeta de credito</p>
+                </div>
+                <div class="forma-pago__icon">
+                    <i class="bi bi-credit-card-2-back forma-pago__i"></i>
+                    <p>Tarjeta de debito</p>
+                </div>
+                <div class="forma-pago__icon">
+                    <i class="bi bi-paypal forma-pago__i"></i>
+                    <p>PayPal</p>
+                </div>
+                <div class="forma-pago__icon">
+                    <i class="bi bi-cash forma-pago__i"></i>
+                    <p>Efectivo</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__redes d-flex justify-content-around">
+            <a class="footer__i" href="https://www.facebook.com/nico12k12/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a class="footer__i" href="https://www.instagram.com/lnicoherrera/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a class="footer__i" href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+        </div>
+        <div class="footer__info text-center footer__info--shadow">
+            <p>Copyrigth © 2022 Ecommerce-RugbyStore S.R.L</p>
+        </div>
+        <div class="footer__info text-center ">
+            <p>Av. Alem 1280 Piso 2. CP 4000 San Miguel de Tucumán, Tucumán.</p>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    </body>
+</html>

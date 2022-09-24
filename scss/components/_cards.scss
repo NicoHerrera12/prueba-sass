@@ -1,0 +1,44 @@
+.box{
+    overflow-x: auto;
+    &__card{
+        background: rgb(87,174,235);
+        background: linear-gradient(180deg, rgba(87,174,235,1) 0%, rgba(28,97,145,1) 51%, rgba(1,32,38,1) 100%); 
+        border-radius: 15px;
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 15px;
+    }
+
+    &__card:hover{
+        box-shadow: 1px 0px 24px -6px rgba(0,0,0,1);
+	    border-radius: 15px;
+        transform: scale(1.05);
+        transition: all 0.5s;
+    }
+    &__comprar{
+        background-color: $color-secundario;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+    &__comprar:hover{
+        color: #fff;
+        background-color: $color-terciario;
+        transition: all 1s;
+    }
+    &__ver{
+        padding: 10px;
+    }
+    &__button{
+        padding: 15px;
+        background-color: $color-secundario;
+        border: 1px solid #000;
+        border-radius: 15px;
+        color: #fff;
+    }
+    &__button:hover{
+        background-color: $color-terciario;
+        transition: all 1s;
+    }
+}
+

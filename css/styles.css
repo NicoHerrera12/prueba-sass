@@ -145,7 +145,7 @@ ol, ul {
   }
 }
 .banner {
-  background-image: url(../../assets/images/banner/home-banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/banner/home-banner.jpg);
   width: 100vw;
   height: 80vh;
   background-position: 50% 50%;

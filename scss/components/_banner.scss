@@ -9,7 +9,23 @@
         font-size: 2rem;
         color: #F3EDDF;
         position: absolute;
-        top: 70%;
+        top: 50%;
         left: 10%;
+        @include short{
+            top: 70%;
+        }
+        @include medium{
+            top: 40%;
+        }
+        @include large{
+            top: 60%;
+        }
     }
+    &__description{
+        font-size: 3rem;
+        @include medium{
+            font-size: 5rem;
+        }
+    }
+
 }

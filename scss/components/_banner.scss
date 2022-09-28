@@ -4,7 +4,7 @@
     height: 80vh;
     background-position: 50% 50%;
     background-attachment: fixed;
-
+    @extend %animation-banner;
     &__cont{
         font-size: 2rem;
         color: #F3EDDF;

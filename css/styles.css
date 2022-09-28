@@ -3,6 +3,11 @@
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
+.banner {
+  -webkit-animation: scale-up-center 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) backwards;
+  animation: scale-up-center 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) backwards;
+}
+
 * {
   font-family: "Roboto Condensed", sans-serif;
   box-sizing: border-box;

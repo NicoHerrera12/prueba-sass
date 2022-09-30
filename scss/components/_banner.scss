@@ -4,6 +4,7 @@
     height: 80vh;
     background-position: 50% 50%;
     background-attachment: fixed;
+    background-size: cover;
     @extend %animation-banner;
     &__cont{
         font-size: 2rem;

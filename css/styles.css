@@ -160,6 +160,7 @@ ol, ul {
   height: 80vh;
   background-position: 50% 50%;
   background-attachment: fixed;
+  background-size: cover;
 }
 .banner__cont {
   font-size: 2rem;
